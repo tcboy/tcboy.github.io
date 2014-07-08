@@ -5,34 +5,36 @@
     <description>tcboy's Blog.</description>
     <link>http://www.oooly.com/</link>
     <atom:link href="http://www.oooly.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 08 Jul 2014 13:27:54 +0800</pubDate>
-    <lastBuildDate>Tue, 08 Jul 2014 13:27:54 +0800</lastBuildDate>
+    <pubDate>Tue, 08 Jul 2014 13:59:03 +0800</pubDate>
+    <lastBuildDate>Tue, 08 Jul 2014 13:59:03 +0800</lastBuildDate>
     <generator>Jekyll v2.1.0</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+        <title>Welcome to My Blog!</title>
+        <description>&lt;p&gt;我是穷人没有钱买空间了, 只好在&lt;code&gt;github&lt;/code&gt;上使用&lt;code&gt;Jekyll&lt;/code&gt;建了一个, 欢迎大家来玩.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;最近在入职培训, 转&lt;code&gt;JAVA&lt;/code&gt;, 我会将我最近学习到的一些知识放上来.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;最后感谢CCTV 感谢Github 感谢Jekyll 感谢Qunar, 让我发布了这篇博客.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;顺便试试代码高亮能不能用:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Main&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;Hello World.&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Contact me at:
+&lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#064;&amp;#111;&amp;#111;&amp;#111;&amp;#108;&amp;#121;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#064;&amp;#111;&amp;#111;&amp;#111;&amp;#108;&amp;#121;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 08 Jul 2014 21:12:48 +0800</pubDate>
-        <link>http://www.oooly.com/jekyll/update/2014/07/08/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://www.oooly.com/jekyll/update/2014/07/08/welcome-to-jekyll/</guid>
+        <pubDate>Tue, 08 Jul 2014 21:45:00 +0800</pubDate>
+        <link>http://www.oooly.com/others/2014/07/08/my-new-blog-site/</link>
+        <guid isPermaLink="true">http://www.oooly.com/others/2014/07/08/my-new-blog-site/</guid>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>others</category>
         
       </item>
     
