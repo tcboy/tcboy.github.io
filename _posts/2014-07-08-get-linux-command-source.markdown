@@ -12,20 +12,33 @@ Linux下的命令是非常方便快捷的，有时候我们想看看Linux的一�
 以top命令为例：
 
 STEP1:
+
 使用 type 命令查找 top 所在的目录
+
 `type top`
+
 得到 top 所在目录是 `/usr/bin/top`
 
+
 STEP2:
+
 使用 sudo dpkg -S /usr/bin/top 查找该命令包含在哪个源文件中
+
 `sudo dpkg -S /usr/bin/top`
+
 结果是 `procps: /usr/bin/top` 
 
+
 STEP3: 
+
 使用 apt-get source procps 命令下载 procps 的源码
+
 `apt-get source procps`
 
+
 STEP4:
+
 在当前目录下查看 procps 的源码
+
 
 DONE.
