@@ -17,7 +17,7 @@ STEP1:
 
 `type top`
 
-得到 top 所在目录是 `/usr/bin/top`
+得到 top 所在目录是 /usr/bin/top
 
 
 STEP2:
@@ -26,7 +26,7 @@ STEP2:
 
 `sudo dpkg -S /usr/bin/top`
 
-结果是 `procps: /usr/bin/top` 
+结果是 procps: /usr/bin/top
 
 
 STEP3: 
