@@ -1,0 +1,12 @@
+# Site settings
+title: Oooly.com
+email: mail@oooly.com
+description: "tcboy's Blog."
+baseurl: ""
+url: "http://www.oooly.com"
+# twitter_username: tcboy
+github_username:  tcboy
+
+# Build settings
+markdown: kramdown
+permalink: pretty
