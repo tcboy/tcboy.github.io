@@ -1,6 +1,6 @@
 # Site settings
-title: Oooly
-email: mail@oooly.com
+title: Oooly.com
+# email: mail@oooly.com
 description: "tcboy's Blog."
 baseurl: ""
 url: "http://www.oooly.com"
