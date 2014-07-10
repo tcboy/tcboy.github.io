@@ -68,5 +68,5 @@ public class SegmentTree<T> {
 }
 {% endhighlight %}
 
-使用时需要将抽象类中的两个函数@Override.
+代码中没有对Query Delete等方法进行实现，需要的话可以根据实际情况对其进行编写。
 
