@@ -37,7 +37,7 @@ public class SegmentTree<T> {
 		isLeaf = true;
 	}
 
-	public void update(int segmentValue) {
+	private void update(int segmentValue) {
 		value = segmentValue;
 		if ( treeLeft != null ) {
 			treeLeft.update(segmentValue);
