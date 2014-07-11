@@ -9,6 +9,7 @@ categories: Code
 {% highlight java %}
 public abstract class SegmentOperation<T> {
 	public abstract T getMid(T o1, T o2);
+	public abstract T getNext(T o1);
 	public abstract int compare(T o1, T o2);
 }
 {% endhighlight %}
@@ -48,21 +49,30 @@ public class SegmentTree<T> {
 	}
 
 	public void insert(T beginT, T endT, int segmentValue) {
-		if ( (oper.compare(begin, beginT) >= 0) && (oper.compare(end, endT) <= 0 ) ) {
+		if ( (oper.compare(begin, beginT) == 0) && (oper.compare(end, endT) == 0 ) ) {
 			update(segmentValue);
 			return;
 		}
+
+		if ( oper.compare(beginT, endT) == 0 ) {
+			return;
+		}
 		T mid = oper.getMid(begin, end);
+		T midNext = oper.getNext(mid);
 		if ( isLeaf ) {
 			treeLeft = new SegmentTree<T>(begin, mid, value, oper);
-			treeRight = new SegmentTree<T>(mid, end, value, oper);
+			treeRight = new SegmentTree<T>(midNext, end, value, oper);
 			isLeaf = false;
 		}
-		if ( oper.compare(beginT, mid) < 0 ) {
+		if ( oper.compare(mid, endT) >= 0 ) {
 			treeLeft.insert(beginT, endT, segmentValue);
 		}
-		if ( oper.compare(endT, mid) > 0 ) {
+		else if ( oper.compare(midNext, beginT) <= 0 ) {
 			treeRight.insert(beginT, endT, segmentValue);
+		}
+		else {
+			treeLeft.insert(beginT, mid, segmentValue);
+			treeRight.insert(midNext, endT, segmentValue);
 		}
 	}
 }
