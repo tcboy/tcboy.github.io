@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Guava用法总结(实时更新)"
-date:   2014-07-22 16:30:00
+title:  "在mysql中添加用户并授权"
+date:   2014-07-30 17:30:00
 categories: Code
 ---
 
@@ -13,7 +13,7 @@ categories: Code
 
 `GRANT USAGE ON *.* TO 'username'@'localhost' IDENTIFIED BY 'password' WITH GRANT OPTION;`
 
-3 -> 对数据库授权
+3 -> 授权
 
 `GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP ON tablename.*  TO 'username'@'localhost' IDENTIFIED BY 'password';`
 
