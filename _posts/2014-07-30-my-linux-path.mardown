@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "我的环境变量,备忘"
+date:   2014-07-30 18:00:00
+categories: Code
+---
+
+export IDEA_HOME=/home/q/idea
+export M2_HOME=/home/q/maven
+export JAVA_BASE=/home/q/java/jdk1.7.0_60
+export QSYS_ROOT=/home/q
+export WORK_ROOT=/home/work
+export WORKSPACE=/home/work/Workspace
+export JAVA_HOME=/home/q/java/default
+export PATH=$JAVA_HOME/bin:$M2_HOME/bin:$IDEA_HOME/bin:$PATH
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+export TOMCAT_HOME=/home/q/tomcat
+
