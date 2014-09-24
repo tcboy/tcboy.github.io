@@ -12,7 +12,7 @@ categories: Code
 rsync的配置
 
 
-`rsyncd.conf`:
+`rsyncd.conf:`
 
 `uid=tomcat` <br/>
 `gid=tomcat` <br/>
@@ -34,12 +34,12 @@ rsync的配置
 `hosts deny=0.0.0.0/0` <br/>
 
 
-`rsyncd.secrets`:
+`rsyncd.secrets:`
 
 `rsync:vdd0ew5lkahQldm4` <br/>
 
 
-`rsyncdConnect.secrets`:
+`rsyncdConnect.secrets:`
 
 `vdd0ew5lkahQldm4` <br/>
 

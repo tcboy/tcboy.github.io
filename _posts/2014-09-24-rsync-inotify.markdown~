@@ -12,7 +12,7 @@ categories: Code
 rsync的配置
 
 
-`rsyncd.conf`:
+`rsyncd.conf:`
 
 `uid=tomcat` <br/>
 `gid=tomcat` <br/>
@@ -34,16 +34,18 @@ rsync的配置
 `hosts deny=0.0.0.0/0` <br/>
 
 
-`rsyncd.secrets`:
+`rsyncd.secrets:`
 
 `rsync:vdd0ew5lkahQldm4` <br/>
 
 
-`rsyncdConnect.secrets`:
+`rsyncdConnect.secrets:`
 
 `vdd0ew5lkahQldm4` <br/>
 
+
 将这3个文件复制到/etc/目录下，并配置权限
+
 
 `#!/bin/sh` <br/>
 
@@ -62,10 +64,10 @@ rsync的配置
 
 将本地目录同步到远程服务器的脚本如下:
 
-<code>
+
 `#!/bin/sh` <br/>
 `rsync -vzrtopg --delete --progress --password-file=/etc/rsyncdConnect.secrets /home/q/www/qhomework/files/attachment rsync@10.86.50.56::backup` <br/>
-</code>
+
 
 但我们不知道什么时候该进行同步
 
