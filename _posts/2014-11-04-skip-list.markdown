@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Skip List"
+date:   2014-11-04 12:00:00
+categories: Code
+---
+
+最近一直在研究NOSQL数据库，不管是[SSDB](http://ssdb.io/) 还是taobao的[TAIR](http://tair.taobao.org/) ，都用到了[LevelDB](http://code.google.com/p/leveldb/) 这个底层的储存引擎。
+
+在LevelDB中有一个核心的数据结构叫Skip List，Skip List有着和优化过的平衡二叉树相当的时间复杂度，却比平衡二叉树更容易实现。
+
+链表的一大优点在于其容易插入、删除，但却只能进行顺序查找。Skip List是链表的一种扩展，主要优化了链表的查找效率。
+
+![](/images/skiplist.png) 
+
+
+
