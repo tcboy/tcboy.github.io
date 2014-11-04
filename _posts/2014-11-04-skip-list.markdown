@@ -11,7 +11,7 @@ categories: Code
 
 链表的一大优点在于其容易插入、删除，但却只能进行顺序查找。Skip List是链表的一种扩展，主要优化了链表的查找效率。
 
-![](/images/skiplist.png =673x343) 
+<img src="/images/skiplist.png" width="673px" height="343px" />
 
 
 
