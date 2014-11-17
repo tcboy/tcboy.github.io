@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "使用wget整站下载"
+date:   2014-11-17 12:00:00
+categories: Code
+---
+
+在LINUX下可以很方便的下载一个网站的所有网页(包括图片等必须元素)
+
+例如, 下载 http://www.oooly.com/
+
+使用命令 `wget -r -k -np -p http://www.oooly.com/`
+
+参数说明:
+
+-r,  --recursive          指定递归下载。
+
+-k,  --convert-links      让下载得到的 HTML 或 CSS 中的链接指向本地文件。
+
+-p,  --page-requisites    下载所有用于显示 HTML 页面的图片之类的元素。
+
+-np, --no-parent                 不追溯至父目录。
