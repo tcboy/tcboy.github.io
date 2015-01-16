@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>LinkUp - Multipurpose HTML Template</title>
+<link rel="icon" type="image/png" href="images/favicon.png" />
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="css/ie-fix.css" />
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="css/reset.css" >
+<link rel="stylesheet" type="text/css" href="css/style.css" >
+<link rel="stylesheet" type="text/css" href="css/superfish.css" >
+<link rel="stylesheet" type="text/css" href="css/colorbox.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/superfish.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.tweet.js"></script>
+<script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
+<script type="text/javascript" src="js/jflickrfeed.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.js"></script>	
+<script type="text/javascript" src="js/tabs.js" ></script>
+<script type="text/javascript" src="js/jquery.collapse.js" ></script>
+<script src="../../ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/scrolltopcontrol.js"></script>
+
+<script type="text/javascript" src="js/custom.js"></script>
+
+<script type="text/javascript">
+/*******************************
+			TABLES
+********************************/
+jQuery.noConflict()(function($){
+$(document).ready(function() {
+		$("table").tablesorter({debug: false});
+	});
+});
+</script>
+
+<script>
+/*******************************
+			TABS
+********************************/
+jQuery.noConflict()(function($){
+	$(document).ready(function() {
+		$("#accordion").accordion();
+	});
+});  
+</script>
+
+<script>
+/*******************************
+			COLLAPSE
+********************************/
+jQuery.noConflict()(function($){
+	$(document).ready(function() {
+		$(".collapse-demo1").collapse({show: function(){
+                    this.animate({
+                        opacity: 'toggle', 
+                        height: 'toggle'
+                    }, 300);
+                },
+                hide : function() {
+                    
+                    this.animate({
+                        opacity: 'toggle', 
+                        height: 'toggle'
+                    }, 300);
+                }
+            });
+            $(".collapse-demo2").collapse({hide: function() {
+                this.fadeOut();
+            }});
+            });
+            });
+</script>
+</head>
+
+<body>
+
+<!-- START MENU SECTION -->
+<div id="top-line"></div>
+<div id="menu-bar">
+	<div class="center-block clearfix">
+    	<!-- start menu -->
+		<div id="menu" class="fix-fish-menu">
+			<div class="white-fix-left"></div>
+			<ul id="nav" class="sf-menu">
+				<li><a href="index-2.html">Home</a></li>
+			 		<li class=""> <a href="#">Features</a>
+					<ul>
+						<li><a href="index-camera.html">Camera Slider</a></li>
+						<li><a href="index-elastic.html">Elastic Slider</a></li>
+						<li><a href="index-slidorion.html">Slidorion Slider</a></li>
+						<li><a href="index-accordion.html">Accordion Slider</a></li>
+						<li><a href="index-static-image.html">Static Image</a></li>
+						<li><a href="index-video.html">Video Style</a></li>
+					</ul>
+			    </li>
+		 		<li class=""> <a href="#" class="active">Typography</a>
+					<ul>
+						<li><a href="typography-headings.html">Headings</a></li>
+						<li><a href="typography-dropcaps.html">Drop Caps</a></li>
+							<li><a href="typography-highlights.html">Highlights</a></li>
+							<li><a href="typography-layouts.html">Layouts</a></li>
+							<li><a href="typography-lists.html">Lists Style</a></li>
+							<li><a href="typography-images.html">Float Images</a></li>
+							<li><a href="typography-buttons.html">Buttons</a></li>
+							<li><a href="typography-tabs-tables.html">Tabs, Tables, Quotes</a></li>
+						</ul>
+				    </li>
+			 	<li class=""> <a href="#">Pages</a>
+					<ul>
+						<li><a href="left-content.html">Left + Content</a></li>
+						<li><a href="content-right.html">Content + Right</a></li>
+						<li><a href="full-width.html">Full Width Page</a></li>
+					</ul>
+				</li>
+		 		<li class=""> <a href="#">Portfolio</a>
+					<ul>
+						<li><a href="portfolio-1.html">Sortable + 4 Columns</a></li>
+						<li><a href="portfolio-4.html">Sortable + 3 Columns</a></li>
+						<li><a href="portfolio-2.html">Standard + 4 Columns</a></li>
+						<li><a href="portfolio-3.html">Standard + 3 Columns</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="#">Project Item 1</a></li>
+						<li><a href="#">Project Item 2</a></li>
+					</ul>
+			    </li>
+                <li class=""><a href="#">Blog</a>
+	   				<ul>
+						<li><a href="blog-style1.html">Blog Style 1</a></li>
+						<li><a href="blog-style2.html">Blog Style 2</a></li>
+						<li><a href="blog-post.html">Blog Post</a></li>
+					</ul>
+	            </li>
+ 				<li><a href="contacts.html">Contact Us</a></li>
+		 	</ul>  <!-- end #nav  -->
+	 	</div>	<!-- end #menu  -->	
+	</div><!-- end .center-block  -->	
+</div><!-- end #menu-bar -->
+<!-- END MENU SECTION -->
+
+
+<!-- START LOGO SECTION -->
+<div id="logo-bar">
+	<div class="center-block clearfix">
+		<div class="logo"><img src="images/logo.png" alt="Logo" /></div>
+		<div class="ads"><a href="http://www.cssmoban.com/?books/freelance-confidential"><img src="images/468x60.png" title="Advertisement" alt="Ads" /></a></div>
+	</div><!-- .center-block -->
+</div><!-- #logo-bar -->
+<!-- END LOGO SECTION -->
+
+
+<!-- START WRAPPER SECTION -->
+<div id="wrapper">
+
+	<div id="separator">
+		<div class="center-block">
+			<h3>Tabs, Tables etc.</h3>
+			<span>: Sample Tabs, Tables, Collapse etc.</span>
+		</div>
+	</div>
+
+	<!-- START CONTENT -->
+	<div class="center-block-page clearfix">
+    	<div class="three_fourth">
+			<h4>Tables</h4>
+	            <table id="rowspan" class="tablesorter">
+	            <thead>
+                    <tr>
+                        <th colspan="2">General information</th>
+                        <th colspan="4">Degree information</th>
+                        <th rowspan="2">Percent</th>
+                    </tr>
+                    <tr>
+                        <th>Major</th>
+                        <th>Gender</th>
+                        <th>English</th>
+                        <th>Japanese</th>
+                        <th>Calculus</th>
+                        <th>Geometry</th>
+                    </tr>
+                </thead>
+		        <tbody>
+              		    <tr>
+               	        <td>Student01</td>
+                        <td>male</td>
+                        <td>100</td>
+                        <td>80</td>
+                        <td>70</td>
+                        <td>75</td>
+						<td>80%</td>
+                    </tr>
+                    <tr>
+                        <td>Student02</td>
+                        <td>female</td>
+                        <td>85</td>
+                        <td>90</td>
+                        <td>88</td>
+                        <td>100</td>
+                        <td>90%</td>
+                    </tr>
+                    <tr>
+                        <td>Student03</td>
+                        <td>female</td>
+                        <td>45</td>
+                        <td>85</td>
+                        <td>95</td>
+                        <td>80</td>
+                        <td>85%</td>
+                    </tr>
+                    <tr>
+                        <td>Student04</td>
+                        <td>male</td>
+                        <td>85</td>
+                        <td>80</td>
+                        <td>25</td>
+                        <td>80</td>
+                        <td>55%</td>
+                    </tr>
+                    <tr>
+                        <td>Student05</td>
+                        <td>male</td>
+                        <td>100</td>
+                        <td>15</td>
+                        <td>95</td>
+                        <td>70</td>
+                        <td>65%</td>
+                    </tr>
+                    <tr>
+                        <td>Student06</td>
+                        <td>female</td>
+                        <td>50</td>
+                        <td>65</td>
+                        <td>55</td>
+                        <td>10</td>
+                        <td>85%</td>
+                    </tr>
+                </tbody>
+            </table>		
+        </div> <!-- end .three_fourth -->
+
+		<div class="three_fourth">
+	    	<h4>Horisontal tabs</h4>
+           	<div class="section">
+				<ul class="tabs">
+	                <li class="current">Tab 1</li>
+                    <li>Tab 2</li>
+                    <li>Tab 3</li>
+                    <li>Tab 4</li>
+                </ul>
+                <div class="box visible">
+	               	<p>
+                    	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+				</div> <!-- end .box -->
+
+                 <div class="box">
+					<p>
+                    	It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', 
+                        making it look like readable English.
+                    </p>
+                 </div> <!-- end .box -->
+	                 <div class="box">
+					<p>
+                    	Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, 
+                        making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia
+					</p>
+				</div> <!-- end .box -->
+
+				<div class="box">
+					<p>
+                    	There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, 
+                        or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, 
+                        you need to be sure there isn't anything embarrassing hidden in the middle of text.
+                    </p>
+				</div> <!-- end .box -->
+			</div>
+               
+			<h4>Vertical tabs</h4> 
+		    <div class="section vertical last">
+            	<ul class="tabs">
+            	    <li class="current">Vertical 1</li>
+                    <li>Vertical 2</li>
+                    <li>Vertical 3</li>
+                </ul>
+  
+                <div class="box no-margin visible">
+                 	<p>
+                    	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of 
+                        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                </div> <!-- end .box -->
+                
+                <div class="box no-margin">
+					<p>
+                    	It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', 
+                        making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, 
+                        and a search for 'lorem ipsum' will uncover many web sites still in their infancy. 
+                        Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                   </p>
+                </div> <!-- end .box -->
+                
+                <div class="box no-margin">
+					<p>
+	                   	Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, 
+                        making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, 
+                        consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. 
+                        Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. 
+                        This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 
+                        "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                   </p>
+                </div> <!-- end .box -->
+			</div><!-- .section -->
+        </div> <!-- end .three_fourth -->        
+		<div class="clear"></div>
+					
+			
+		<div class="three_fourth">			
+			<h4>Accordion widgets</h4> 			
+			<div id="accordion">
+				<h3><a href="#">Section 1</a></h3>
+				<div>
+					<p>
+						Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+						ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+						amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+						odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+					</p>
+				</div>
+				<h3><a href="#">Section 2</a></h3>
+				<div>
+					<p>
+						Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+						purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+						velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+						suscipit faucibus urna.
+					</p>
+				</div>
+				<h3><a href="#">Section 3</a></h3>
+				<div>
+					<p>
+						Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+						Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+						ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+						lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+					</p>
+						<ul>
+							<li>List item one</li>
+							<li>List item two</li>
+							<li>List item three</li>
+						</ul>
+				</div>
+				<h3><a href="#">Section 4</a></h3>
+				<div>
+					<p>
+						Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+						et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+						faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+						mauris vel est.
+					</p>
+					<p>
+						Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+						Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+						inceptos himenaeos.
+					</p>
+				</div>
+			</div><!-- #accordion -->
+        </div> <!-- end .three_fourth -->        
+				
+		<div class="clear"></div>
+		<div class="divider-1px"></div>
+
+
+		<!-- COLLAPSE -->		
+		<h4>Collapse</h4> 	
+		<div class="one_third">
+			<h6>First instance</h6>
+			<div class="collapse-demo1">
+				<h6>Fruits</h6> 
+				<div class="toggle-content">
+					<p>Everything You Want To Know About Fruit. Fruits Vegetables, Weight Loss Recipes, Tropical, Tree</p>
+                   	<ul class="list check">
+                   	    <li>Apple</li>
+                   	    <li>Pear</li>
+                   	    <li>Orange</li>
+                   	</ul>
+				</div><!-- .toggle-content -->
+
+				<h6>Vegetables</h6>
+				<div class="toggle-content">
+                    <ul>
+                        <li>Carrot</li>
+                        <li>Tomato</li>
+                        <li>Squash</li>
+                    </ul>
+				</div><!-- .toggle-content -->
+
+				<h6>Colors</h6>
+				<div class="toggle-content">
+					<p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+						Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+						inceptos himenaeos.
+					</p>
+				</div><!-- .toggle-content -->
+			</div><!-- .collapse-demo1 -->
+		</div><!-- .one_third -->
+
+		<div class="one_third">
+			<h6>Second instance</h6>
+			<p>This contains nested expandable content.</p>
+			<div class="collapse-demo1">
+				<h6>Code</h6>
+				<div class="toggle-content">
+					<code>&lt;div class=&quot;collapse-demo1&quot;&gt;
+     &lt;h6&gt;Code&lt;/h6&gt;
+     &lt;div class=&quot;toggle-content&quot;&gt;
+          &lt;p&gt;text&lt;/p&gt;
+     &lt;/div&gt;&lt;!-- .toggle-content --&gt;
+&lt;/div&gt;&lt;!-- .collapse-demo1 --&gt;</code>
+				</div><!-- .toggle-content -->
+			</div><!-- .collapse-demo1 -->
+		</div><!-- .one_third -->
+            
+		<div class="one_third column-last">
+			<h6>Third instance</h6>
+			<p>This is open by default</p>
+			<div class="collapse-demo2">
+				<h6 class="active">Countries</h6>
+				<div class="toggle-content">
+					<ul>
+						<li>Sweden</li>
+                        <li>Jamaica</li>
+                        <li>India</li>
+                        <li>Australia</li>
+                        <li>Brazil</li>
+                    </ul>
+				</div><!-- .toggle-content -->
+			</div><!-- .collapse-demo2 -->
+		</div><!-- .one_third -->
+
+		<div class="clear"></div>		
+		<div class="divider-1px"></div>
+
+		<!-- BLOCKQUOTES -->            
+		<div class="three_fourth">			
+			<h4>Blockquotes</h4>
+				<blockquote>
+					<p>Working with staff who aren’t necessarily even in the same country let alone the same office is one of the most interesting parts 
+					of running a blog. It’s a method of work that is unique to this generation of business and there is little written on the subject.</p>
+				</blockquote>
+				<blockquote class="bq-1">
+					<p>Working with staff who aren’t necessarily even in the same country let alone the same office is one of the most interesting parts 
+					of running a blog. It’s a method of work that is unique to this generation of business and there is little written on the subject.</p>
+				</blockquote>
+		</div><!-- .three_fourth -->
+	
+	</div><!-- .center-block-page -->
+	<!-- END CONTENT -->
+</div><!-- #wrapper -->
+
+<!-- END WRAPPER -->	    
+
+
+<!-- START FOOTER -->
+<div class="divider-100-2px"></div>
+<div id="footer">
+	<div class="center-block clearfix">
+		<div class="widget">
+			<h6>Contact Info</h6>
+			<p>Pinup is an American multinational compane that designs 
+			and markets consumer electronics, computer software, and personal computers.
+			</p>
+			<div>
+				<span class="location">12345 / Some Street<br>New York, USA</span>
+				<span class="phone">phone: +1 (44)  123-45-67</span>
+				<span class="email"><a href="mailto:support@color-theme.com">support@color-theme.com</a></span>
+			</div>			
+		</div><!-- .widget -->
+		
+		<div class="widget">
+			<h6>Twitter Feed</h6>
+			<div class="tweet"></div>
+		</div><!-- .widget -->
+		
+		<div class="widget">
+			<h6>Flickr Photos</h6>
+			<ul id="cbox" class="thumbs"></ul>
+		</div><!-- .widget -->
+		
+		<div class="widget">
+			<img src="images/logo-mini.png" alt="Logo Mini" class="logo" />
+			<p>We are a group of designers combining our skills to create traditional 
+			and new creative websites for your communicational issues.</p>
+			<ul id="footer-social">
+    			<li class="twitter"><a href="http://twitter.com/"></a></li>
+    			<li class="dribbble"><a href="http://dribbble.com/"></a></li>
+    			<li class="facebook"><a href="http://facebook.com/"></a></li>
+    			<li class="google"><a href="http://plus.google.com/"></a></li>
+    			<li class="linkedin"><a href="http://linkedin.com/"></a></li>
+    			<li class="behance"><a href="http://behance.net/"></a></li>
+    			<li class="rss"><a href="#"></a></li>
+    		</ul>		
+		</div><!-- .widget -->
+	</div><!-- .center-block -->
+</div><!-- #footer -->
+<!-- END FOOTER -->
+
+
+<!-- START FOOTER MENU  -->
+<div id="footer-menu">
+	<div class="center-block clearfix">
+		<ul id="second-menu">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Features</a></li>
+			<li><a href="#">Typography</a></li>
+			<li><a href="#">Pages</a></li>
+			<li><a href="#">Portfolio</a></li>
+			<li><a href="#">Blog</a></li>
+		</ul>
+		<div class="copyright">&copy; Copyright &copy; 2013.Company name All rights reserved.<a target="_blank" href="http://www.cssmoban.com/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></div>
+	</div><!-- .center-block -->
+</div><!-- #footer-menu -->
+<!-- END FOOTER MENU  -->
+
+</body>
+</html>

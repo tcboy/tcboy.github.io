@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>LinkUp - Multipurpose HTML Template</title>
+<link rel="icon" type="image/png" href="images/favicon.png" />
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="css/ie-fix.css" />
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="css/reset.css" >
+<link rel="stylesheet" type="text/css" href="css/style.css" >
+<link rel="stylesheet" type="text/css" href="css/superfish.css" >
+<link rel="stylesheet" type="text/css" href="css/colorbox.css" />
+<link rel="stylesheet" type="text/css" href="css/camera.css" />
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/superfish.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.tweet.js"></script>
+<script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
+<script type="text/javascript" src="js/jflickrfeed.min.js"></script>
+<script type="text/javascript" src="js/camera.min.js"></script>
+<script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
+<script type="text/javascript" src="js/scrolltopcontrol.js"></script>
+
+
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript">
+/***************************************************
+			Camera Slider
+***************************************************/
+jQuery.noConflict()(function($){
+			$('#camera_wrap_2').camera({
+				loader: 'bar',
+				pagination: false,
+				thumbnails: true,
+				loaderColor: '#BF252F',
+				hover: false,
+				height: '400px'
+			});
+		});
+</script>
+
+</head>
+
+<body>
+
+<!-- START MENU SECTION -->
+<div id="top-line"></div>
+<div id="menu-bar">
+	<div class="center-block clearfix">
+    	<!-- start menu -->
+		<div id="menu" class="fix-fish-menu">
+			<div class="white-fix-left"></div>
+			<ul id="nav" class="sf-menu">
+				<li><a href="index-2.html">Home</a></li>
+			 		<li class=""> <a href="#">Features</a>
+					<ul>
+						<li><a href="index-camera.html">Camera Slider</a></li>
+						<li><a href="index-elastic.html">Elastic Slider</a></li>
+						<li><a href="index-slidorion.html">Slidorion Slider</a></li>
+						<li><a href="index-accordion.html">Accordion Slider</a></li>
+						<li><a href="index-static-image.html">Static Image</a></li>
+						<li><a href="index-video.html">Video Style</a></li>
+					</ul>
+			    </li>
+		 		<li class=""> <a href="#">Typography</a>
+					<ul>
+						<li><a href="typography-headings.html">Headings</a></li>
+						<li><a href="typography-dropcaps.html">Drop Caps</a></li>
+							<li><a href="typography-highlights.html">Highlights</a></li>
+							<li><a href="typography-layouts.html">Layouts</a></li>
+							<li><a href="typography-lists.html">Lists Style</a></li>
+							<li><a href="typography-images.html">Float Images</a></li>
+							<li><a href="typography-buttons.html">Buttons</a></li>
+							<li><a href="typography-tabs-tables.html">Tabs, Tables, Quotes</a></li>
+						</ul>
+				    </li>
+			 	<li class=""> <a href="#">Pages</a>
+					<ul>
+						<li><a href="left-content.html">Left + Content</a></li>
+						<li><a href="content-right.html">Content + Right</a></li>
+						<li><a href="full-width.html">Full Width Page</a></li>
+					</ul>
+				</li>
+		 		<li class=""> <a href="#" class="active">Portfolio</a>
+					<ul>
+						<li><a href="portfolio-1.html">Sortable + 4 Columns</a></li>
+						<li><a href="portfolio-4.html">Sortable + 3 Columns</a></li>
+						<li><a href="portfolio-2.html">Standard + 4 Columns</a></li>
+						<li><a href="portfolio-3.html">Standard + 3 Columns</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="#">Project Item 1</a></li>
+						<li><a href="#">Project Item 2</a></li>
+					</ul>
+			    </li>
+                <li class=""><a href="#">Blog</a>
+	   				<ul>
+						<li><a href="blog-style1.html">Blog Style 1</a></li>
+						<li><a href="blog-style2.html">Blog Style 2</a></li>
+						<li><a href="blog-post.html">Blog Post</a></li>
+					</ul>
+	            </li>
+ 				<li><a href="contacts.html">Contact Us</a></li>
+		 	</ul>  <!-- end #nav  -->
+	 	</div>	<!-- end #menu  -->	
+	</div><!-- end .center-block  -->	
+</div><!-- end #menu-bar -->
+<!-- END MENU SECTION -->
+
+
+<!-- START LOGO SECTION -->
+<div id="logo-bar">
+	<div class="center-block clearfix">
+		<div class="logo"><img src="images/logo.png" alt="Logo" /></div>
+		<div class="ads"><a href="http://www.cssmoban.com/?books/freelance-confidential"><img src="images/468x60.png" title="Advertisement" alt="Ads" /></a></div>
+	</div><!-- .center-block -->
+</div><!-- #logo-bar -->
+<!-- END LOGO SECTION -->
+
+
+<!-- START WRAPPER SECTION -->
+<div id="wrapper">
+
+	<div id="separator">
+		<div class="center-block">
+			<h3>Gallery</h3>
+			<span>: Showcase with Camera slideshow.</span>
+		</div>
+	</div>
+	
+	<!-- START CONTENT -->
+	<div class="center-block clearfix">
+		<!-- START SLIDER -->
+		<div id="gallery-wrapper" class="no-margin-bottom">
+	        <div class="camera_wrap camera_burgundy_skin" id="camera_wrap_2">
+	            <div data-thumb="images/sliders/ei-slider/thumb/slide01.jpg" data-src="images/sliders/ei-slider/slide01.jpg">
+	                <div class="camera_caption fadeFromBottom">
+	                    Camera is a responsive/adaptive slideshow. <em>Try to resize the browser window</em>
+	                </div>
+	            </div>
+	            <div data-thumb="images/sliders/ei-slider/thumb/slide02.jpg" data-src="images/sliders/ei-slider/slide02.jpg">
+	                <div class="camera_caption fadeFromBottom">
+	                    It uses a light version of jQuery mobile, <em>navigate the slides by swiping with your fingers</em>
+	                </div>
+	            </div>
+	            <div data-thumb="images/sliders/ei-slider/thumb/slide03.jpg" data-src="images/sliders/ei-slider/slide03.jpg">
+	                <div class="camera_caption fadeFromBottom">
+                    <em>It's completely free</em> (even if a donation is appreciated)
+	                </div>
+	            </div>
+	            <div data-thumb="images/sliders/ei-slider/thumb/slide04.jpg" data-src="images/sliders/ei-slider/slide04.jpg">
+	                <div class="camera_caption fadeFromBottom">
+	                    Camera slideshow provides many options <em>to customize your project</em> as more as possible
+	                </div>
+	            </div>
+	            <div data-thumb="images/sliders/ei-slider/thumb/slide05.jpg" data-src="images/sliders/ei-slider/slide05.jpg">
+	                <div class="camera_caption fadeFromBottom">
+	                    It supports captions, HTML elements and videos and <em>it's validated in HTML5</em> (<a href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.pixedelic.com%2Fplugins%2Fcamera%2F&amp;charset=%28detect+automatically%29&amp;doctype=Inline&amp;group=0&amp;user-agent=W3C_Validator%2F1.2" target="_blank">have a look</a>)
+	                </div>
+	            </div>
+	            <div data-thumb="images/sliders/ei-slider/thumb/slide06.jpg" data-src="images/sliders/ei-slider/slide06.jpg">
+                <div class="camera_caption fadeFromBottom">
+		                    Different color skins and layouts available, <em>fullscreen ready too</em>
+	                </div>
+	            </div>
+	            <div data-thumb="images/sliders/ei-slider/thumb/slide07.jpg" data-src="images/sliders/ei-slider/slide07.jpg">
+	                <div class="camera_caption fadeFromBottom">
+	                    It supports captions, HTML elements and videos and <em>it's validated in HTML5</em> (<a href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.pixedelic.com%2Fplugins%2Fcamera%2F&amp;charset=%28detect+automatically%29&amp;doctype=Inline&amp;group=0&amp;user-agent=W3C_Validator%2F1.2" target="_blank">have a look</a>)
+	                </div>
+	            </div>
+	            <div data-thumb="images/sliders/ei-slider/thumb/slide08.jpg" data-src="images/sliders/ei-slider/slide08.jpg">
+	                <div class="camera_caption fadeFromBottom">
+	                    It supports captions, HTML elements and videos and <em>it's validated in HTML5</em> (<a href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.pixedelic.com%2Fplugins%2Fcamera%2F&amp;charset=%28detect+automatically%29&amp;doctype=Inline&amp;group=0&amp;user-agent=W3C_Validator%2F1.2" target="_blank">have a look</a>)
+	                </div>
+	            </div>	            
+	        </div><!-- #camera_wrap_1 -->
+		</div><!-- end slider-wrapper -->
+		<!-- END SLIDER -->
+	</div><!-- .center-block -->
+
+	<div class="center-block-page clearfix">
+		<div class="one_third">
+		<h4>Introduction</h4>
+			<p>Camera slideshow is an open source project, based on Diapo slideshow (<a href="http://www.pixedelic.com/plugins/diapo/">http://www.pixedelic.com/plugins/diapo</a>, no more supported, sorry), 
+			but improved a lot. You can suggest changes or improvements if you want. You can download it and use for free, you can also include it in your 
+			projects and sell it as part of a bigger work (in this case please consider a donation).</p>
+		</div><!-- .one_third -->
+		<div class="one_third">
+		<h4>Camera Slideshow</h4>
+			<p><a href="http://www.pixedelic.com/plugins/camera/">Camera slideshow</a> (as Diapo) is tested on new browsers, but I tried to make it compatible with the old versions of Internet Explorer too (8 and 7). 
+			But I don't think I will spend many hours to improve this feature, sorry.</p>
+		</div><!-- .one_third -->
+		<div class="one_third column-last">
+		<h4>jQuery Plugins</h4>
+			<p>Camera slideshow requires jQuery 1.4+ and other jQuery plugins are necessary if you want to use some functionalities: 
+			jQuery Easing (<a href="http://gsgd.co.uk/sandbox/jquery/easing/">visit the project page</a>) and a customized version of jQuery Mobile (<a href="http://jquerymobile.com/">visit the project page</a>) to use Camera with mobile devices. 
+			These plugins are included in the zip you can download at the bottom of this page.</p>
+		</div>
+	</div><!-- .center-block-page -->
+		
+	<!-- END CONTENT -->
+</div><!-- #wrapper -->
+
+<!-- END WRAPPER -->	    
+
+
+<!-- START FOOTER -->
+<div class="divider-100-2px"></div>
+<div id="footer">
+	<div class="center-block clearfix">
+		<div class="widget">
+			<h6>Contact Info</h6>
+			<p>Pinup is an American multinational compane that designs 
+			and markets consumer electronics, computer software, and personal computers.
+			</p>
+			<div>
+				<span class="location">12345 / Some Street<br>New York, USA</span>
+				<span class="phone">phone: +1 (44)  123-45-67</span>
+				<span class="email"><a href="mailto:support@color-theme.com">support@color-theme.com</a></span>
+			</div>			
+		</div><!-- .widget -->
+		
+		<div class="widget">
+			<h6>Twitter Feed</h6>
+			<div class="tweet"></div>
+		</div><!-- .widget -->
+		
+		<div class="widget">
+			<h6>Flickr Photos</h6>
+			<ul id="cbox" class="thumbs"></ul>
+		</div><!-- .widget -->
+		
+		<div class="widget">
+			<img src="images/logo-mini.png" alt="Logo Mini" class="logo" />
+			<p>We are a group of designers combining our skills to create traditional 
+			and new creative websites for your communicational issues.</p>
+			<ul id="footer-social">
+    			<li class="twitter"><a href="http://twitter.com/"></a></li>
+    			<li class="dribbble"><a href="http://dribbble.com/"></a></li>
+    			<li class="facebook"><a href="http://facebook.com/"></a></li>
+    			<li class="google"><a href="http://plus.google.com/"></a></li>
+    			<li class="linkedin"><a href="http://linkedin.com/"></a></li>
+    			<li class="behance"><a href="http://behance.net/"></a></li>
+    			<li class="rss"><a href="#"></a></li>
+    		</ul>		
+		</div><!-- .widget -->
+	</div><!-- .center-block -->
+</div><!-- #footer -->
+<!-- END FOOTER -->
+
+
+<!-- START FOOTER MENU  -->
+<div id="footer-menu">
+	<div class="center-block">
+		<ul id="second-menu">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Features</a></li>
+			<li><a href="#">Typography</a></li>
+			<li><a href="#">Pages</a></li>
+			<li><a href="#">Portfolio</a></li>
+			<li><a href="#">Blog</a></li>
+		</ul>
+		<div class="copyright">&copy; Copyright &copy; 2013.Company name All rights reserved.<a target="_blank" href="http://www.cssmoban.com/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></div>
+		<div class="clear"></div>
+	</div><!-- .center-block -->
+</div><!-- #footer-menu -->
+<!-- END FOOTER MENU  -->
+
+</body>
+</html>
